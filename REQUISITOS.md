@@ -10,7 +10,7 @@ Cada produto da deve possuir os seguinte atributos:
 
 Se a lista estiver vazia, a comissão é zero.
 
-Se a lista tiver somente um item, a comissão é baseada no preço unitário multiplicado pela quantidade do único item da lista, multiplicado pelo percentual de comissão (ver detalhes do percentual de comissão na próxima seção.
+Se a lista tiver somente um item, a comissão é baseada no preço unitário multiplicado pela quantidade do único item da lista, multiplicado pelo percentual de comissão (ver detalhes do percentual de comissão na próxima seção).
 
 Já se a lista tiver mais de um item, deve-se fazer o cálculo acima para cada item, antes da aplicação do percentual de comissão.
 
