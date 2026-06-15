@@ -1,12 +1,10 @@
 module.exports = function (items) {
   if (!items.length) return 0;
 
-  const prices = items.map((item) => {
+  const totalPrice = items.map((item) => {
     const { precoUnitario, qtdVendida } = item;
     return precoUnitario * qtdVendida;
-  });
-
-  const totalPrice = prices.reduce(
+  }).reduce(
     (intemAnterior, proximoItem) => intemAnterior + proximoItem,
   );
 
