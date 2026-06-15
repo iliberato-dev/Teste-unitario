@@ -1,0 +1,4 @@
+const calculaComissaoVenda = require('.');
+
+
+
